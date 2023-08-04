@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="neuroflag"
+    fetch="https://github.com/neuroflag/"
+    pushurl="ssh://git@github.com/neuroflag" />
+  <remote name="firefly-linux"
+    fetch="https://gitlab.com/firefly-linux/" />
+  <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" remote="firefly-linux" revision="firefly" />
+  <project name="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" remote="firefly-linux" revision="firefly" />
+  <project path="device/neuroflag" name="aosp" remote="neuroflag" revision="neuroflag/device/neuroflag" />
+  <project path="device/rockchip" name="aosp" remote="neuroflag" revision="rockchip/device/rockchip" />
+  <project path="external/camera_engine_rkaiq" name="aosp" remote="neuroflag" revision="rockchip/external/camera_engine_rkaiq" />
+  <project path="hardware/rockchip" name="aosp" remote="neuroflag" revision="rockchip/hardware/rockchip" />
+  <project path="kernel" name="aosp-kernel" remote="neuroflag" revision="neuroflag" />
+  <project path="RKDocs" name="aosp" remote="neuroflag" revision="rockchip/RKDocs" />
+  <project path="RKTools" name="aosp" remote="neuroflag" revision="rockchip/RKTools" />
+  <project path="u-boot" name="u-boot" remote="neuroflag" revision="neuroflag" />
+  <project path="vendor/firefly" name="aosp" remote="neuroflag" revision="firefly/vendor/firefly" />
+  <project path="vendor/rockchip" name="aosp" remote="neuroflag" revision="rockchip/vendor/rockchip" />
+  <project path="vendor/widevine" name="aosp" remote="neuroflag" revision="rockchip/vendor/widevine" />
+  <project path="neuroflag" name="aosp" remote="neuroflag" revision="main" groups="neuroflag" />
+</manifest>

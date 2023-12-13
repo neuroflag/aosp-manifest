@@ -5,6 +5,7 @@
     pushurl="ssh://git@github.com/neuroflag" />
   <remote name="firefly-linux"
     fetch="https://gitlab.com/firefly-linux/" />
+  <remove-project path="system/vold" />
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" remote="firefly-linux" revision="firefly" />
   <project name="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" remote="firefly-linux" revision="firefly" />
   <project path="device/neuroflag" name="aosp" remote="neuroflag" revision="neuroflag/device/neuroflag" />
@@ -14,6 +15,7 @@
   <project path="kernel" name="aosp-kernel" remote="neuroflag" revision="neuroflag" />
   <project path="RKDocs" name="aosp" remote="neuroflag" revision="rockchip/RKDocs" />
   <project path="RKTools" name="aosp" remote="neuroflag" revision="rockchip/RKTools" />
+  <project path="system/vold" name="aosp" remote="neuroflag" revision="neuroflag/system/vold" />
   <project path="u-boot" name="u-boot" remote="neuroflag" revision="neuroflag" />
   <project path="vendor/firefly" name="aosp" remote="neuroflag" revision="firefly/vendor/firefly" />
   <project path="vendor/rockchip" name="aosp" remote="neuroflag" revision="rockchip/vendor/rockchip" />
